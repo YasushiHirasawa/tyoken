@@ -1,0 +1,49 @@
+
+.site-header {
+  /* margin: 0; */
+  background-color:#f59a00;
+  /* display:flex; */
+  /* padding:60px 20px; */
+  /* color :#fff; */
+  /* text-align:center; */
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  margin-top: -100px;
+  /* z-index:500; */
+  line-height: 0.5
+}
+
+body {
+    background-color: aqua;
+  /* color: #333; */
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+  /* margin-right: 80px; */
+  margin-left: 0;
+  /* margin: 0px;
+  margin: 0; */
+  line-height: 1
+}
+h1 {
+  color:rgb(214, 48, 26) ;
+  text-align: center;
+}
+p {
+  line-height: 1;
+  color:rgb(52, 82, 180) ;
+}
+h2 {
+  color:rgb(180, 52, 101) ;
+  font-size: 18px;
+  font-weight: bolder;
+  
+}
+
+footer {
+  font-size:14px;
+  line-height:50%;
+  background-color: rgb(139, 201, 187);
+}
