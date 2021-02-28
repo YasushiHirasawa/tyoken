@@ -11,7 +11,8 @@
   width: 100%;
   margin-top: -100px;
   /* z-index:500; */
-  line-height: 0.5
+  line-height: 0.5;
+
 }
 
 body {
@@ -23,9 +24,9 @@ body {
   margin-bottom: 0;
   /* margin-right: 80px; */
   margin-left: 0;
-  /* margin: 0px;
-  margin: 0; */
-  line-height: 1
+  margin-right: 0 ;
+  /* margin: 0;  */
+  line-height: 1;
 }
 h1 {
   color:rgb(214, 48, 26) ;
@@ -34,14 +35,19 @@ h1 {
 p {
   line-height: 1;
   color:rgb(52, 82, 180) ;
+  text-align: center;
 }
 h2 {
   color:rgb(180, 52, 101) ;
   font-size: 18px;
   font-weight: bolder;
+  text-align: center;
   
 }
 
 footer {
-  background-color: rgb(199, 163, 187);
+  font-size:14px;
+  line-height:50%;
+  background-color: rgb(139, 201, 187);
+  text-align: center;
 }
