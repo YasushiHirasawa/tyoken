@@ -33,14 +33,67 @@ h1 {
 p {
   line-height: 1;
   color:rgb(52, 82, 180) ;
+  font-size: 14px;
+
 }
 h2 {
-  color:rgb(180, 52, 101) ;
-  font-size: 18px;
-  font-weight: bolder;
+  color:rgb(30, 8, 107) ;
+  font-size: 16px;
+  font-weight: bold;
   
 }
 
 footer {
   background-color: rgb(199, 163, 187);
+}
+
+/*全体*/
+.hidden_box {
+  margin: 1em 0;/*前後の余白*/
+  padding: 0;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+  padding: 5px;
+  font-weight: bold;
+  border: solid 2px black;
+  cursor :pointer;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+  background: #efefef;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+  display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+  padding: 5px 0;
+  height: auto;
+  opacity: 1;
+}
+
+.kiroku{
+/* aline:center; */
+background-color: #b6cec0;
+border-color:rgb(10, 10, 10);
+}
+.atama{
+  background-color: #322f50;
+  color:white;
+
 }

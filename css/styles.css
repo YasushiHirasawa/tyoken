@@ -25,7 +25,7 @@ body {
   /* margin-right: 80px; */
   margin-left: 0px;
   /* margin-right: 8px ; */
-  padding-left :10px;
+  /* padding-left :10px; */
   /* margin: 0;  */
   line-height: 1;
 }
@@ -51,4 +51,8 @@ footer {
   line-height:50%;
   background-color: rgb(139, 201, 187);
   text-align: center;
+}
+.docume {
+  margin-left: 10px;
+
 }
